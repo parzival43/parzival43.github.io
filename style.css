@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+body {
+	
+color: #68d0eb;
+background-image: url("globebg1.jpg");
+background-repeat: no-repeat;
+background-size: 1366px 625px;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.pass {
+
+width: 200px;
+height: 30px;
+border-style: none;
+border-radius: 15px;
+
+}
+
+.usern {
+
+width: 200px;
+height: 30px;
+border-style: none;
+border-radius: 15px;
+
+}
+
+.usern::placeholder{
+
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.pass::placeholder{
+
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.pass:focus {
+    outline: none !important;
+    border:1px solid #1b405f;
+}
+
+.usern:focus {
+    outline: none !important;
+    border:1px solid #1b405f;
+}
+
+textarea:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.loginb{
+
+cursor: pointer;
+width: 200px;
+height: 30px;
+border-radius: 15px;
+border: none;
+color: white;
+background-color: #1b405f;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.ldiv {
+	
+padding-top: 20px;
+
+}
